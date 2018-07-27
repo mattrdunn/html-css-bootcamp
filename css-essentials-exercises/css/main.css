@@ -1,0 +1,31 @@
+.image{
+    width: 1000px;
+    height: 600px;
+    /*background-color: aquamarine;*/
+
+    /*Exercise 2*/
+    border-radius: 15px;
+
+    /*Exercise 3*/
+    border: groove 20px purple;
+
+    /*Exercise 5*/
+    background-image: url("../pic/sunflower.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div1{
+    width: 400px;
+    height: 200px;
+    border: 40px dashed red;
+    margin: 20px auto;
+}
+
+.div2{
+    width: 400px;
+    height: 200px;
+    border: 40px dashed red;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
