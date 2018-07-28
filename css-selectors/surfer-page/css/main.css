@@ -1,0 +1,31 @@
+body {
+    background-color: cornflowerblue;
+}
+
+div {
+    background-color: aquamarine;
+    width: 60%;
+    /*height: 800px;*/
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 20px;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border: 10px groove orange;
+    border-radius: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#primary {
+    color: blue;
+
+}
+
+#secondary {
+    color: red;
+
+}
