@@ -1,0 +1,64 @@
+/*Exercise 1*/
+#special-gorp {
+    color: red;
+}
+
+/*Exercise 2*/
+.gorp {
+    color: red;
+}
+
+/*Exercise 3*/
+[target="_blank"]{
+    border: 2px dashed mediumpurple;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*Exercise 4*/
+#ex4:link{
+    color: blue;
+}
+
+#ex4:visited{
+    color: green;
+}
+
+#ex4:hover{
+    color: darkorange;
+}
+
+#ex4:active{
+    color: red;
+}
+
+/*Exercise 5*/
+#ex5:first-letter {
+    color: red;
+    font: italic small-caps bold 2em cursive;
+}
+
+#ex5:first-line {
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+/*Exercise 6
+  Makes all paragraph elements inside div red*/
+div p {
+    color: red;
+}
+
+/*I don't feel like making different html/css files for each exercise but:
+
+makes all siblings below div red:
+div~p {
+    color: red;
+}
+
+makes the immediate sibling below div red (only the first p element below div):
+div+p {
+    color: red;
+}
+*/
+

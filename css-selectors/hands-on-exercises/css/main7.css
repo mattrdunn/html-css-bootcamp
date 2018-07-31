@@ -1,0 +1,5 @@
+/*Exercise 7
+Makes all paragraph elements that are immediate children of div blue*/
+div>p {
+    color: blue;
+}
