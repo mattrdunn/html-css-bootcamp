@@ -1,0 +1,13 @@
+* {
+    color: black;
+}
+
+/* Specificity value of 10 */
+.ten {
+    color: green;
+}
+
+/* Specificity value of 100 */
+#hundred {
+    color: aqua;
+}

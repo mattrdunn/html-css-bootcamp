@@ -1,0 +1,51 @@
+* {
+    color: black;
+}
+
+/* Specificity value of 100 */
+#hundred {
+    color: aqua;
+}
+
+/* Specificity value of 1 */
+div {
+    color: green;
+}
+
+/* The rest of the exercises here:
+Exercise 3:
+Specificity value of 10
+.ten {
+    color: aqua;
+}
+Specificity value of 1
+div {
+    color: green;
+}
+
+
+Exercise 4
+Specificity value of 1
+div {
+    color: aqua;
+}
+Specificity value of 10
+[target] {
+    color: green;
+}
+
+
+Exercise 5
+Specificity value of 10
+.ten {
+    color: aqua;
+}
+Specificity value of 10
+[target] {
+    color: green;
+}
+It would be green because when equal, the last is applied.
+
+
+*/
+
